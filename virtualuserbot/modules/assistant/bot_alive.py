@@ -27,10 +27,11 @@ pm_caption += f"➥ **Version** : `{currentversion}`\n"
 pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
 pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
-pm_caption += "➥ **Copyright** : By [InukaASiTH](GitHub.com/Inukaasith)\n"
-pm_caption += "[Assistant By Inukaasith](https://t.me/Inukaasith)"
+pm_caption += "➥ **Copyright** : By [⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐](lasiya.ml)\n"
+pm_caption += "[Assistant By ⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐](https://lasiya.ml)"
 
-# only Owner Can Use it
+
+#Owner Can Use it
 @assistant_cmd("alive", is_args=False)
 @peru_only
 async def friday(event):
