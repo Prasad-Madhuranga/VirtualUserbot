@@ -162,14 +162,14 @@ if ENV:
         GPLINKS_API_KEY = os.environ.get("GPLINKS_API_KEY", None)
         OPEN_LOAD_KEY = os.environ.get("OPEN_LOAD_KEY", None)
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/Inukaasith/VirtualUserbot"
+            "UPSTREAM_REPO", "https://github.com/SLdevilX/VirtualUserbot"
         )
         ALIVE_IMAGE = os.environ.get(
-            "ALIVE_IMAGE", "https://telegra.ph/file/4e1364fb18f899ad47dec.png"
+            "ALIVE_IMAGE", "https://telegra.ph/file/0283f9d0ec9564820f340.jpg"
         )
         ASSISTANT_START_PIC = os.environ.get(
             "ASSISTANT_START_PIC",
-            "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
+            "https://telegra.ph/file/0283f9d0ec9564820f340.jpg",
         )
         TESSDATA_PREFIX = os.environ.get(
             "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
